@@ -1,0 +1,27 @@
+/* Navbar.css */
+.navbar {
+  background-color: #e9f2ff; /* soft light blue */
+  color: #222;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar h1 {
+  font-size: 1.5rem;
+  color: #1e4ed8;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  margin: 0 15px;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  color: #1e4ed8;
+  text-decoration: underline;
+}

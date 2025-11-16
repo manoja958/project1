@@ -1,0 +1,149 @@
+body {
+  background: linear-gradient(to right, #a8c0ff, hsl(205, 97%, 88%));
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.container {
+  max-width: 500px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 30px 40px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #3f2b96;
+  margin-bottom: 25px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 18px;
+  font-size: 14px;
+  outline: none;
+  transition: 0.3s ease;
+}
+
+input:focus {
+  border-color: #3f2b96;
+  box-shadow: 0 0 5px rgba(63,43,150,0.3);
+}
+
+button {
+  background-color: #3f2b96;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #2b1f68;
+}
+
+.message {
+  text-align: center;
+  color: green;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.error {
+  color: red;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.table-container {
+  margin-top: 30px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+table, th, td {
+  border: 1px solid #ccc;
+}
+
+th {
+  background-color: #3f2b96;
+  color: white;
+  padding: 12px;
+  text-align: left;
+}
+
+td {
+  padding: 10px;
+  font-size: 14px;
+}
+
+input[type="search"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+/* Navbar Styles */
+.navbar {
+  background-color: #3f2b96;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+}
+
+.navbar h1 {
+  font-size: 22px;
+  letter-spacing: 1px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  color: #ffd700;
+  text-decoration: underline;
+}
+
+.container {
+  margin-top: 40px;
+}
